@@ -51,7 +51,7 @@ public class Train {
     }
 
     //сортировать вагоны по комфортности
-    public void sortByComfort(){
+    public void sortByComfort() {
         try {
             for (int i = 0; i < wagones.size(); i++) {
                 for (int j = 0; j < wagones.size(); j++) {
@@ -69,8 +69,7 @@ public class Train {
                     }
                 }
             }
-        }
-        catch(NullPointerException e){
+        } catch (NullPointerException e) {
             System.out.println("Depot is null!");
         }
     }
